@@ -1,0 +1,417 @@
+/* Data_pirates_1113_Great_North_Travels */
+
+/* Created By : 
+Mohammed Fahim Vellachalil (C0787386)
+Sunil Kumar Sridhar (C0778706)
+Vishnu Radhakrishnan Nair (C0784440) 
+Abhishek Karumalath Saji (C0779451)
+ */
+
+
+/* As we follow mobile first strategy, we create style for mobile viewport */
+
+/* Background colour of the page */
+body {
+    background-color: rgba(45, 214, 200, 0.26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styles for the h4 in header */
+
+header h4 {
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: .3em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+#bann {
+    display: none;
+}
+
+
+
+/* Styles for class logo in header */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+/* Styles for the whole nav area */
+nav {
+    max-width: 100%;
+    overflow: hidden;
+    align-items: center;
+    padding: 0;
+}
+
+/* styles for unordered list in nav */
+nav ul {  
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+/* Styles for list inside ul */
+nav li {
+    background-color:rgb(231, 193, 22);
+    text-align: center;
+    border-radius: 2em;
+    margin-top: 1.5%;
+}
+
+/* Styles for the anchor element in nav */
+nav li a {
+    margin: 0;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* Styles for the he class */
+.he {
+    background-color: #4CAF50;
+}
+
+/* Styles for the heade class */
+.heade {
+    background-color: #434742;
+    color: #ffffff;
+}
+
+/* Styles for the ui id */
+#ui {
+    text-align: center;
+    background-color: #343742;
+    color: #ffffff;
+}
+
+/* Styles for the links in ui id */
+#ui a {
+    color:  #ACDCF1;
+}
+
+
+/* Styles for the list items in price class */
+.price li{
+    color: #ffffff;
+}
+
+
+/* Styles for the list in main element */
+main li {
+    background-color: #343742;
+}
+
+  
+/* Styles for the column class*/
+  .columns {
+    margin-bottom: 1%;
+  }
+
+  /* Styles for the price class*/
+  .price {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+
+  /* Styles for the header class in price class */
+  .price .header {
+    background-color: #00000f;
+    color: white;
+    font-size: 25px;
+  }
+  
+
+    /* Styles for the list in price class */
+  .price li {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+  }
+  
+/* Styles for the grey class in price class */
+  .price .grey {
+    background-color: #ffffff;
+    font-size: 20px;
+    color: #00000f;
+  }
+  
+/* Styles for the button class */
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  /* Styles for the class icon */
+#icon {
+    background-color: #343742;
+
+}
+
+  /* Styles for the li in class icon */
+#icon li {
+    list-style-type: none;
+    display: inline-block;
+    width: 23%;
+   
+}
+
+
+/* Styles for the footer */
+footer {
+    color: #ffffff;
+    text-align: center;
+    font-size: .8em;
+    margin-top: 1em;
+    background-color:#333333;
+    font-family: sans-serif;
+    padding: 2%;
+}
+
+/* Styles for the links footer */
+footer a {
+    text-decoration: none;
+    color: #ACDCF1;
+
+
+}
+
+/* Styles for the article element */
+article {
+    font-family: sans-serif;
+    background-color: #343742;
+    color: #ffffff;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+/* Styles for the paragraph in article element */
+article p{
+    background-color: #ffffff;
+    color: #343742;
+    padding: 2%;
+}
+
+
+.gallery {
+    display: none;
+}
+
+/* Styles responsive for tablet viewport */
+@media only screen and (min-width: 520px) {
+    /* Styles for the nav */
+    nav {
+        background-color: rgb(231, 193, 22);
+        border-radius: 1em;
+
+    }
+
+    /* Styles for the ul in nav */
+    nav ul {
+        display: inline;
+    }
+
+    /* Styles for the list in ul */
+    nav ul li {
+        float: left;
+        margin: auto;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        width: 25%;
+        list-style-type: none;
+    }
+
+    /* Styles for the img in class desktop */
+    #bann {
+        display: inline;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        border-radius: .2em;
+        margin-bottom: -1em;
+        display: none;
+    }
+
+    /* Styles for the uiu id */
+    #uiu {
+        display: flex;
+    }
+
+    /* Styles for the column class */
+    .columns {
+        width: 32%;
+        display: inline-block;
+    }
+
+
+    .gallery {
+        margin-top: 8%;
+        display: flex;
+        background-color: #343742;
+        padding: .2%;
+        padding-top: .8em;
+        padding-bottom: .8em;
+
+    }
+
+    .gallery img {
+        width: 24%;
+        display: inline-block;
+        margin-left: .7%;
+    }
+}
+
+
+/* Changing the viewport to desktop screen */
+@media only screen and (min-width: 830px) {
+    .logo {
+        float: left;
+    }
+
+    /* Styles for the h4 in header */
+    header h4 {
+        font-size: 2em;
+        background-color: #293033;
+        color: floralwhite;
+        padding: .21em;
+        border-radius: 2em;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+
+    }
+
+    /* Styles for the nav in desktop viewport */
+    nav ul {
+        display: inline;
+        max-width: 100%;
+    }
+
+    /* Styles for the list in nav element */
+
+    nav li {
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 22%;
+        font-size: 1.2em;
+    }
+
+
+    nav {
+        margin-top: 3em;
+        background-color: transparent;
+    }
+
+ 
+    /* Styles for the psuedo class elements */
+    nav li a:link {
+        color: #111111;
+      }
+    
+      nav li a:visited {
+        color: #111111;
+      }
+    
+      nav li a:hover {
+        color: cornsilk;
+        font-size: 1.25em;
+        background-color: #343742;
+        border-radius: 1em;
+        padding: 1.8%;
+      }
+    
+      nav li a:active {
+        color: darkcyan;
+      }
+
+    /* Styles for the bann id */
+      #bann {
+        display: inline;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -.5em;
+        border-radius: .2em;
+        margin-bottom: -1em;
+        display: inline;
+    }
+
+    /* Styles for the kbfc id */
+    #kbfc {
+        display: flex;
+    }
+    
+
+    /* Styles for the article element */
+    article {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        background-color: #343742;
+        color: #ffffff;
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        margin-right: 0.2%;
+        padding: 0%;
+    
+    }
+    
+
+    /* Styles for the heading in article element */
+    article h4 {
+        text-align: center;
+    }
+
+
+    /* Styles for the paragraph article element */
+    article p {
+        background-color: honeydew;
+        color: #343742;
+        line-height: 22px;
+        border: black;
+        border-width: 0.1%;
+        margin-top: 0%;
+        display: flex;
+    
+    }
+
+    /* Styles for ui id */
+
+    #ui {
+        padding: .5%;
+    }
+
+    /* Styles for the cloumn class */
+
+    .columns {
+        width: 32.6%;
+    }
+
+}

@@ -1,0 +1,295 @@
+/* Data_pirates_1113_Great_North_Travels */
+
+/* Created By : 
+Vishnu Radhakrishnan Nair (C0784440) 
+Abhishek Karumalath Saji (C0779451)
+Sunil Kumar Sridhar (C0778706)
+Mohammed Fahim Vellachalil (C0787386)
+ */
+
+
+/* Background colour of the page */
+body {
+    background-color: rgba(45, 214, 200, 0.26);
+    background: linear-gradient( rgba(45, 214, 200, 0.26), rgba(109, 124, 73, 0.801));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .85em;
+}
+
+/* Styles for the h3 in header */
+header h3 {
+    max-width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: .3em;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styles for class logo in header */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+/* Styles for the whole nav area */
+nav {
+    max-width: 100%;
+    overflow: hidden;
+    align-items: center;
+    padding: 0;
+}
+
+/* styles for unordered list in nav */
+nav ul {  
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+/* Styles for list inside ul */
+nav li {
+    background-color: rgb(231, 193, 22);
+    text-align: center;
+    border-radius: 2em;
+    margin-top: 1.5%;
+}
+
+/* Styles for the anchor element in nav */
+nav li a {
+    margin: 0;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* Styles for the para */
+main p {
+    font-size: 1em;
+}
+
+
+/* Styles for the iframe */
+iframe {
+    max-width: 100%;
+    margin-right: auto;
+    /* width: 50%; */
+    display: block;
+    margin-bottom: 1em;
+}
+/* styles for the form element tags */
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* styles for the labels */
+label {
+  display: block;
+}
+
+/* Styles for the class icon */
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 3%;
+    background-color: gray;
+}
+
+/* Styles for the li in class icon */
+.icon li {
+    list-style-type: none;
+    float: left;
+    padding-top: .5em;
+    margin: auto;
+    width: 25%;
+    padding-bottom: .5em;    
+}
+
+
+/* Styles for the footer */
+footer {
+    text-align: center;
+    font-size: .8em;
+    margin-top: 1em;
+    font-weight: bold;
+    background-color: #343742;
+    color: #ffffff;
+    padding: 2em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ACDCF1;
+}
+
+#banner {
+    display: none;
+}
+
+/* Styles responsive for tablet viewport */
+@media only screen and (min-width: 480px) {
+    #banner {
+        display: inline;
+    }
+
+    /* Styles for the header element */
+    header h3 {
+        font-size: 1.6em;
+    }
+
+    /* Styles for the nav */
+    nav {
+    background-color: rgb(231, 193, 22);
+        /* padding: auto; */
+        border-radius: 1em;
+    }
+
+    /* Styles for the ul in nav */
+    nav ul {
+        display: inline;
+    }
+
+    /* Styles for the list in ul */
+    nav ul li {
+        float: left;
+        margin: auto;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        width: 25%;
+        list-style-type: none;
+    }
+
+    /* Styles for the banner */
+    #banner {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+    table,th,td {
+        border: solid .1em black;
+        border-collapse: collapse;
+        padding: .3em;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+
+    table {
+        padding-bottom: 1em;
+        background-color: #ffffff;
+    }
+
+    table,caption {
+        padding: .5em;
+    }
+    /* Styles for font-size in p */
+    main p {
+        font-size: 1.2em;
+    }
+
+    /* Styles for the responsive class icon  */
+    .icon {
+        margin-left: 7%;
+    }
+
+    /* Styles for font-size in footer */
+    footer {
+        font-size: 1em;
+        clear: both;
+    }
+}
+
+/* Changing the viewport to desktop screen */
+@media only screen and (min-width: 850px) {
+    .logo {
+        float: left;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    /* Styles for the h3 in header */
+    header h3 {
+        font-size: 2em;
+        background-color: dimgray;
+        color: floralwhite;
+        border-radius: 1em;
+        padding: .2em;
+    }
+
+    /* Styles for the nav in desktop viewport */
+    nav ul {
+        display: inline;
+        max-width: 100%;
+    }
+    #banner {
+        margin-bottom: -.3em;
+    }
+    nav li {
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 22%;
+        font-size: 1.2em;
+    }
+
+    nav {
+        margin-top: 3em;
+        background-color: transparent;
+    }
+
+    section {
+        background-color: darkgray;
+        padding: 1.5em;
+        border-radius: 1em;
+        padding-left: 18%;
+    }
+
+    .icon {
+        margin: 0;
+    }
+
+    .icon li {
+        margin-top: -1.8em;
+    }
+
+    /* Styles for making the nav links creative */
+    nav a:link {
+        color: black;
+    }
+    
+    nav a:visited {
+        color: black;
+        font-style: italic;
+    }
+    
+    nav a:hover {
+        color: cornsilk;
+        background-color: #343742;
+        border-radius: 1.3em;
+        padding: .2em;
+        font-size: 1.25em;
+    }
+    
+    nav a:active {
+        color: darkcyan;;
+    }
+    
+}
